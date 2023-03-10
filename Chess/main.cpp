@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 #include<windows.h>
 
 using namespace std;
@@ -16,7 +16,7 @@ using std::endl;
 #define BLACK_BOX          "\x20\x20"
 //#define SHAHMOTNAYA_DOSKA
 
-// Escape-Последовательность '\x'Позволяет добавить в строковую константу символ по его шестнадцатеричному коду  ASCII-коду
+// Escape-РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ '\x'РџРѕР·РІРѕР»СЏРµС‚ РґРѕР±Р°РІРёС‚СЊ РІ СЃС‚СЂРѕРєРѕРІСѓСЋ РєРѕРЅСЃС‚Р°РЅС‚Сѓ СЃРёРјРІРѕР» РїРѕ РµРіРѕ С€РµСЃС‚РЅР°РґС†Р°С‚РµСЂРёС‡РЅРѕРјСѓ РєРѕРґСѓ  ASCII-РєРѕРґСѓ
 
 void main()
 {
@@ -29,7 +29,7 @@ void main()
 #ifdef SHAHMOTNAYA_DOSKA
 
 	int n;
-	cout << "Введите размер доски: "; cin >> n;  n++;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё: "; cin >> n;  n++;
 
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
@@ -52,7 +52,7 @@ void main()
 #endif // SHAHMOTNAYA_DOSKA
 
 	int h;
-	cout << "Введите высоту треугольника: "; cin >> h;
+	cout << "Р’РІРµРґРёС‚Рµ РІС‹СЃРѕС‚Сѓ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°: "; cin >> h;
 	long long int nf = 1;
 	for (int i = 0; i < h; i++) 
 	{
